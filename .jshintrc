@@ -1,0 +1,72 @@
+{
+    // Enforcing Options
+    "bitwise":       true,          // prohibit use of bitwise operators
+    "curly":         true,          // require curly braces around blocks in loops and conditionals
+    "eqeqeq":        true,          // prohibit == and != in favor of === and !==
+    "esversion":     2020,          // ECMAScript version to which code must adhere
+    "forin":         true,          // require all `for in` loops to filter objects' items
+    "freeze":        true,          // prohibit overwriting prototypes of native objects
+    "futurehostile": true,          // warn about use of identifiers defined in future versions of JS
+    // "globals":       [],            // whitelist of global vars not formally defined here
+    "latedef":       true,          // prohibit use of vars before definition; "nofunc" to ignore fn declarations
+    "leanswitch":    true,          // prohibit unnecessary switch clauses
+    "noarg":         true,          // prohibit use of arguments.caller and arguments.callee
+    "nocomma":       true,          // prohibit use of comma operator
+    "nonbsp":        true,          // warn about U+00A0 NO-BREAK SPACE characters
+    "nonew":         true,          // prohibit constructors without `new`
+    "noreturnawait": true,          // prohibit `return await`
+    // "predef":        [],            // list of vars implicitly defined in environment
+    "regexpu":       true,          // warn about regexps not including /u flag
+    "shadow":        "inner",       // suppress warnings about declaring vars already declared in outer scope
+    "singleGroups":  true,          // prohibit unnecessary use of grouping operator
+    "strict":        false,          // require code to run in ES5 strict mode
+    "trailingcomma": true,          // warn about missing trailing commas
+    "undef":         true,          // prohibit use of vars not explicitly declared
+    "unused":        true,          // warn about vars defined and never used
+    "varstmt":       true,          // prohibit `var` stmts in favor of `let` and `const`
+
+    // Relaxing Options
+    "asi":           false,         // allow missing semicolons
+    "boss":          false,         // allow assignments where comparisons are expected
+    "debug":         false,         // allow `debugger` statements
+    "elision":       false,         // allow ES3 array elision elements
+    "eqnull":        false,         // allow `== null` comparisons
+    "evil":          false,         // allow `eval`
+    "expr":          false,         // allow use of exprs as stmts (instead of fn calls or assignments)
+    "funcscope":     false,         // allow outer use of vars declared in inner control structs
+    "iterator":      false,         // allow use of `__iterator__` property
+    "lastsemic":     false,         // allow omission of last `;` before closing 1-line block 
+    "loopfunc":      false,         // allow use of functions inside loops
+    "moz":           false,         // allow Mozilla JS extensions
+    "notypeof":      false,         // allow invalid `typeof` values
+    "noyield":       false,         // allow generator fns without `yield` stmts
+    "plusplus":      false,         // prohibit use of `++` and `--` operators
+    "proto":         false,         // allow use of `__proto__` property
+    "scripturl":     false,         // allow use of script-targeted URLs, e.g., `javascript:...`
+    "supernew":      false,         // allow certain weird constructions
+    "validthis":     false,         // in strict mode, allow use of `this` in non-constructor fns
+    "withstmt":      false,          // allow use of `with` stmt, hail satan
+
+    // Environment Options
+    // "browser":       true,          // modern browsers
+    // "browserify":    true,          // globals available when using Browserify
+    // "couch":         true,          // CouchDB
+    // "devel":         true,          // poor-man's debugging: console, alert, etc.
+    // "dojo":          true,          // the Dojo Toolkit
+    // "jasmine":       true,          // the Jasmine unit testing framework
+    // "jquery":        true,          // the jQuery JavaScript library
+    // "mocha":         true,          // the "BDD" and "TDD" UIs of the Mocha unit testing framework
+    // "module":        true,          // inform JSHint that the input code describes an ECMAScript 6 module
+    // "mootools":      true,          // the MooTools JavaScript framework
+    "node":          true           // globals available inside the Node runtime environment
+    // "nonstandard":   true,          // non-standard but widely adopted globals such as escape and unescape
+    // "phantom":       true,          // globals available inside the PhantomJS runtime environment
+    // "prototypejs":   true,          // the Prototype JavaScript framework
+    // "qunit":         true,          // the QUnit unit testing framework
+    // "rhino":         true,          // globals available inside the Rhino runtime environment
+    // "shelljs":       true,          // the ShellJS library
+    // "typed":         true,          // globals for typed array constructors
+    // "worker":        true,          // code running in Web Workers
+    // "wsh":           true,          // code running in Windows Script Host
+    // "yui":           true,          // the YUI JavaScript framework
+}
